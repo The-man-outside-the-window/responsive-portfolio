@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.Title {
+    color: beige;
+    background-color: aquamarine;
+    font-size: 18px;
+    height: 50px;
+    width: 120px;
+    top: 0%;
+
+}
+
+.fancy {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.a1 {
+    color: aquamarine;
+    font-size: 80px;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button {background-color: turquoise;
+    padding: 5px 32px;
+    width: 40px;
+    height: 20px;
+    
+}
+
+.col-sm1 {
+    float: left;
+    clear: right;
+    position: relative;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.col-sm2 {
+    float: left;
+    clear: right;
+    position: relative;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20%;
+}
+
+.col-sm3 {
+    float: left;
+    clear: right;
+    position: relative;
+    padding: 10px;
+    margin-top: 250px;
+    width: 50px;
+    height: 50px;
+}
+
+.col-sm4 {
+    float: inherit;
+    clear: right;
+    position: relative;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.col-sm5 {
+    float: inherit;
+    clear: inherit;
+    position: relative;
+    padding: 10px;
+    margin-top: 600px;
+    width: 50px;
+    height: 50px;
+}

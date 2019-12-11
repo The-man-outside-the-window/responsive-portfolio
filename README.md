@@ -1,2 +1,3 @@
-# responsive-portfolio
-A more responsive portfolio for Rodney Tippery
+# Basic-Portfolio
+
+A basic portfolio for Rodney Tippery
