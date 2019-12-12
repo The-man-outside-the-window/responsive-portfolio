@@ -1,6 +1,32 @@
 * {
     box-sizing: border-box;
 }
+/*media queries: tablet landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%;}
+    #secondary { width:30%; margin-left:3%;}
+
+}
+
+/*media queries: tablet portrait*/
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none;}
+
+}
+
+@media (min-device-width:600px) {
+    img[data-scr-600px] {
+        content: attr(data-scr-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-scr-800px] {
+        content: attr(data-scr-600px, url);
+    }
+
+img { max-width: 100%; height: auto; }
 
 .Title {
     color: beige;
@@ -24,6 +50,11 @@
 
 .info {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    margin: 5%;
+    padding: 5%;
+    width: 70%;
+    height: auto;
 
 }
 
@@ -34,13 +65,22 @@
     
 }
 
+.box-set {
+    background-color: lightgrey;
+    margin: 5%;
+    padding: 5%;
+    width: 70%;
+    height: auto;
+
+}
+
 .col-sm1 {
     float: left;
     clear: right;
     position: relative;
     padding: 10px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: auto;
 }
 
 .clearfix::after {
@@ -54,19 +94,21 @@
     clear: right;
     position: relative;
     padding: 10px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: auto;
     margin-left: 20%;
 }
 
 .col-sm3 {
-    float: left;
-    clear: right;
+    float: right;
+    clear: none;
     position: relative;
     padding: 10px;
-    margin-top: 250px;
-    width: 50px;
-    height: 50px;
+    margin-top: 220px;
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    z-index: 10%;
 }
 
 .col-sm4 {
@@ -74,8 +116,8 @@
     clear: right;
     position: relative;
     padding: 10px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: auto;
 }
 
 .col-sm5 {
@@ -83,7 +125,19 @@
     clear: inherit;
     position: relative;
     padding: 10px;
-    margin-top: 600px;
-    width: 50px;
-    height: 50px;
+    margin-top: 300px;
+    width: 150px;
+    height: auto;
 }
+
+.box2 {
+    background-color: lightgrey;
+    margin: 10%;
+    padding: 5%;
+    width: auto;
+    height: auto;
+
+}
+
+}
+
